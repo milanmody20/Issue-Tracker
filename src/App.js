@@ -14,8 +14,8 @@ function App() {
         addIssue ? <addIssue /> : <currentIssue />
       }
       <div>
-        <button>Current Issues</button>
-        <button>Add Issue</button>
+        <button onClick = {}>Current Issues</button>
+        <button onClick = {}>Add Issue</button>
       </div>
     </div>
   );
