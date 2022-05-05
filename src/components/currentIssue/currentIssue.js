@@ -1,15 +1,13 @@
 import React, {useState} from "react";
-import addIssue from './components/addIssue/addIssue.js';
-import currentIssue from './components/currentIssue/currentIssue.js';
 
-function App() {
+function CurrentIssue() {
   const [addIssue, setAddIssue] = useState(true);
 
   return (
-    <div className="current-ssue">
+    <div className="current-issue">
       
     </div>
   );
 }
 
-export default App;
+export default CurrentIssue;

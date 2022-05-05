@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import addIssue from './components/addIssue/addIssue.js';
-import currentIssue from './components/currentIssue/currentIssue.js';
+import AddIssue from './components/addIssue/AddIssue';
+import CurrentIssue from './components/currentIssue/CurrentIssue';
 
 import './App.css';
 
@@ -11,11 +11,11 @@ function App() {
     <div className="App">
       <h1>Issue Tracker</h1>
       {
-        addIssue ? <addIssue /> : <currentIssue />
+        addIssue ? <AddIssue /> : <CurrentIssue />
       }
       <div>
-        <button onClick = {}>Current Issues</button>
-        <button onClick = {}>Add Issue</button>
+        <button>Current Issues</button>
+        <button>Add Issue</button>
       </div>
     </div>
   );
