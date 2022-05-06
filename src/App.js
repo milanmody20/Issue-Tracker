@@ -10,13 +10,16 @@ function App() {
   return (
     <div className="App">
       <h1>Issue Tracker</h1>
-      {
-        addIssue ? <AddIssue /> : <CurrentIssue />
-      }
-      <div>
-        <button>Current Issues</button>
-        <button>Add Issue</button>
-      </div>
+        <div className= "card-container">
+        {
+          addIssue ? <AddIssue /> : <CurrentIssue />
+        }
+        </div>
+        
+        <div>
+          <button>Current Issues</button>
+          <button>Add Issue</button>
+        </div>
     </div>
   );
 }

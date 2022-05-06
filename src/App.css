@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+}
+
+body {
+    background: #eef4fb;
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+    color: #007AE6
+}
+
+.card-container {
+    background: #f6f6f6;
+    max-width: 725px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 40px 50px 30px;
+    box-shadow: 0px 3px 6px 0px #000000;
+}
