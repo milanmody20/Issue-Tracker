@@ -13,6 +13,7 @@ function AddIssue() {
 
         <label> Assign To:
           <select name="forDev" id="forDev">          {/*select creates a drop down menu */}
+            <option value="default" disabled hidden>Assign to...</option>
             <option value= "Jason">Jason</option>
             <option value= "Tommy">Tommy</option>
             <option value= "Kimberly">Kimberly</option>
@@ -24,6 +25,7 @@ function AddIssue() {
 
         <label> Priority:
           <select name="priority" id="priority">          {/*select creates a drop down menu */}
+            <option value="default" disable hidden>Select priority level</option>
             <option value= "Low">Low</option>
             <option value= "Medium">Medium</option>
             <option value= "High">High</option>

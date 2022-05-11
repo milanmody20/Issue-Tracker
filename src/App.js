@@ -5,7 +5,7 @@ import CurrentIssue from './components/currentIssue/CurrentIssue';
 import './App.css';
 
 function App() {
-  const [addIssue, setAddIssue] = useState(true);
+  const [addIssue, setAddIssue] = useState(false);
 
   return (
     <div className="App">
