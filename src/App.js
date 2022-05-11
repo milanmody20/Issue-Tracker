@@ -16,9 +16,9 @@ function App() {
         }
         </div>
         
-        <div>
-          <button>Current Issues</button>
-          <button>Add Issue</button>
+        <div class="button-selection">
+          <button class="current-button">Current Issues</button>
+          <button class="add-button">Add Issue</button>
         </div>
     </div>
   );
