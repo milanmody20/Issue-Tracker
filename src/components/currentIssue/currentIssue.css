@@ -11,16 +11,26 @@
 }
 
 .current-issue .indv-issue {
-    position: relative;
+    position: relative ;
 }
 
 .current-issue .close-issue {
     position: absolute;
     top: 0;
     right: 0;
-    color: #959595
+    color: #959595;
+    margin-top: 0px;
+    font-weight: bold;
 }
 
 .current-issue .description {
     color: #959595;
+}
+
+.current-issue hr {
+    boarder: none;
+    background: #989898;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
