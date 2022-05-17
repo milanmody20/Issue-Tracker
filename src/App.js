@@ -7,9 +7,14 @@ import './App.css';
 function App() {
   const [addIssue, setAddIssue] = useState(true);   //true displays add issue, false displays current issues
 
-  function toggleScreen() {
-    setAddIssue(!addIssue)
+  function showAddIssue() {
+      setAddIssue(true);
   }
+
+  function showCurrentIssue() {
+      setAddIssue(false);
+  } 
+
 
   return (
     <div className="App">
@@ -21,8 +26,8 @@ function App() {
         </div>
         
         <div class="button-selection">
-          <button class="add-button" onClick={() => toggleScreen()}>Add Issue</button>
-          <button class="current-button" onClick={() => toggleScreen()}>Current Issues</button>
+          <button class="add-button" onClick={() => showAddIssue()}>Add Issue</button>
+          <button class="current-button" onClick={() => showCurrentIssue()}>Current Issues</button>
         </div>
     </div>
   );
